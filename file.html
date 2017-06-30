@@ -4,7 +4,8 @@
 <head> </head>
 <body>
 
-
+ <h3> Engelse werkwoorden oefenen</h3>
+ 
 <div id='woord0'> <p> </p> </div>;
 <input type='text' id='woord1'>;
 
@@ -14,17 +15,17 @@ var nederlandseWoorden = ['uitvinden', 'fluisteren', 'laten schrikken', 'kwellen
 var engelseWoorden = ['to invent', 'to whisper', 'to scare', 'to trouble', 'to bang', 'to turn', 'to boast', 'to sin', 'to deceive', 'to force', 'to launch', 'to preserve'];
 
 function takeWord () {
-math.floor(Math.random()*12)
+return Math.floor(Math.random()*12);
 }
-switch (){
+var keuze = takeWord();
 
-;
+function askWord () {
+document.getElementById('woord0').innerHTML = nederlandseWoorden [keuze];
+ // still needs the rest of the function. Not done yet.
 }
 
 
-
-
-
+ </script>
 
 
 
